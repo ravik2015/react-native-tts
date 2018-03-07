@@ -46,7 +46,7 @@ public class TextToSpeechModule extends ReactContextBaseJavaModule {
                     initStatusPromises.clear();
                 }
             }
-        });
+        }, "com.google.android.tts");
 
         tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
             @Override
